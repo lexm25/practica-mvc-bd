@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS libro;
+CREATE TABLE libro(
+  titulo VARCHAR(100),
+  isbn VARCHAR(10) PRIMARY KEY,
+  genero VARCHAR(10),
+  autor VARCHAR(100),
+  paginas INTEGER
+);
+
+INSERT INTO libro VALUES ('libro1','3214569874','FICCION','autor1',100);
+INSERT INTO libro VALUES ('libro2','7413698525','POESIA','autor2',200);
+INSERT INTO libro VALUES ('libro3','9516234876','NOVELA','autor3',300);
